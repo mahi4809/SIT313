@@ -1,0 +1,58 @@
+/* Reset some default browser styles */
+body, html, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif; /* Change the font family */
+}
+
+/* Center the form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+/* Style the form */
+#form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+#form p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+input[type="text"], input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif; /* Change the font family */
+}
+
+button.btn {
+    display: block;
+    width: 100%;
+    padding: 12px; /* Adjust padding for better button appearance */
+    font-size: 18px; /* Increase font size for the button text */
+    background-color: #4caf50; /* Change button color */
+    color: #ffffff;
+    border: none;
+    border-radius: 6px; /* Slightly rounder edges */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.btn:hover {
+    background-color: #45a049; /* Darker color on hover */
+}
